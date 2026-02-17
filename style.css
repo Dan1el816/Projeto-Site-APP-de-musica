@@ -1,0 +1,40 @@
+#Hero {
+  background: linear-gradient(
+    270deg,
+    #8100D1,
+    #FF52A0,
+    #FF52A0,
+    #B500B2
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 7s ease infinite;
+}
+#Header{
+    background: linear-gradient(
+    270deg,
+    #8100D1,
+    #FF52A0,
+    #FF52A0,
+    #B500B2
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 7s ease infinite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
