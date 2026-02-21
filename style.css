@@ -26,6 +26,18 @@
   
 
 }
+#carousel {
+  background: linear-gradient(
+    270deg,
+    #8100D1,
+    #FF52A0,
+    #FF52A0,
+    #B500B2
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 7s ease infinite;
+  padding: 0.5%;
+}
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
